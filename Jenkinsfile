@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'repository_url'
+                git 'https://github.com/minahil12345/mlops_Manahil.git'
             }
         }
         stage('Install Dependencies') {
